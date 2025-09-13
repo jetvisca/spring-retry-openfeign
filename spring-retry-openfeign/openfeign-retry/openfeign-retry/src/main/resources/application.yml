@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: openfeign-retry
+  cloud:
+    openfeign:
+      client:
+        config:
+          sample:
+            url: http://localhost:9090
